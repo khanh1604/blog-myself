@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Old+Standard+TT:ital@1&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+header{
+    background: #000;
+}
+
+.intro{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.intro .intro-title h1{
+    font-size:4rem;
+    font-family: 'Old Standard TT', serif;
+    z-index:1;
+    opacity: 0.6;
+    margin:8rem 0 5rem 0 ;
+}
+.container{
+    padding:1rem 20rem;
+    
+}
+.container img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    
+    box-shadow: 0 0 10px rgb(0,0,0,0.7);
+}
+.container h3{
+    text-align:center;
+    font-size:1.6rem;
+    font-weight:200;
+    padding:1rem;
+}
+.container p{
+    text-align:center;
+    font-size:1.5rem;
+    text-transform:none;
+    font-weight:100;
+}
+.assessment {
+    margin: 2rem 0;
+    border-top : 1px solid rgb(0,0,0);
+    
+    
+}
+.assessment .container{
+    position: relative;
+    z-index:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    
+}
+.assessment h1{
+    text-align:center;
+    font-weight: 500;
+    font-size:3rem;
+    margin:3rem 0;
+}
+.assessment .container .content{
+    padding: 1rem;
+    background: rgb(0,0,0,0.4);
+    text-align:center;
+    border-radius: 10px;
+}
+.assessment .container .content i{
+    
+    font-size:2.5rem;
+    color:#139cf8;
+    background-color: #fff;
+    width:2.5rem;
+    height:2.4rem;
+    border-radius: 100%;
+}
+.assessment .container .content .btn{
+    
+    color:#fff;
+    background: #139cf8;
+    display:inline-block;
+    padding:0.8rem;
+    margin:1rem 0;
+    font-size:1.2rem;
+    border-radius:10px;
+}
+.assessment .container .content .btn:hover{
+    background: rgb(19,156,248,0.7);
+    font-size: 1.3rem;
+    font-weight:500;
+    color:#fff;
+}
+.assessment .container .content p{
+    padding:1rem;
+    font-size:1.6rem;
+    color:#fff;
+}
+
+.assessment .container img{
+    position: absolute;
+    top:0;left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    margin-bottom:30rem;
+    z-index:-1;
+}
